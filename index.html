@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Berners-Lee Facts</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 31px 3.35%;
+      min-height: 100vh;
+      background-image: url("background.png");
+      background-repeat: repeat;
+      color: #111;
+      font-family: "Lucida Sans", "Lucida Grande", sans-serif;
+      font-size: 16px;
+      letter-spacing: 0.15px;
+    }
+
+    main {
+      width: 100%;
+      min-height: 779px;
+      padding: 31px 32px;
+      background: rgba(225, 225, 225, 0.82);
+    }
+
+    h1 {
+      margin: 0 0 19px;
+      font-size: 25px;
+      line-height: 1.35;
+      font-weight: 700;
+    }
+
+    h3 {
+      margin: 0 0 15px;
+      font-size: 17px;
+      line-height: 1.25;
+    }
+
+    p {
+      margin: 0 0 14px;
+      line-height: 1.28;
+    }
+
+    .portrait {
+      float: right;
+      width: 192px;
+      height: 241px;
+      object-fit: cover;
+      border-radius: 29px;
+      margin: 1px 48px 20px 28px;
+    }
+
+    .quick-facts-title {
+      margin: 14px 0 11px;
+    }
+
+    ul {
+      margin: 0 0 15px 22px;
+      padding-left: 18px;
+      list-style-type: circle;
+      line-height: 1.25;
+    }
+
+    ul ul {
+      list-style-type: square;
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    table {
+      border: 1px solid #111;
+      border-radius: 11px;
+      border-spacing: 0;
+      overflow: hidden;
+      margin: 0 0 15px;
+      line-height: 1.35;
+    }
+
+    th, td {
+      border: 1px solid #111;
+      padding: 1px 4px;
+      text-align: left;
+      white-space: nowrap;
+    }
+
+    th {
+      text-align: center;
+      font-weight: 700;
+    }
+
+    .section-heading {
+      margin: 0 0 15px;
+    }
+
+    a:link {
+      color: #0000ee;
+    }
+
+    a:visited {
+      color: #008000;
+    }
+
+    .source-note {
+      margin-top: 15px;
+      font-style: italic;
+    }
+
+    @media (max-width: 700px) {
+      body {
+        padding: 16px;
+      }
+
+      main {
+        min-height: 0;
+        padding: 22px;
+      }
+
+      .portrait {
+        width: 145px;
+        height: auto;
+        margin: 0 0 15px 18px;
+      }
+
+      th, td {
+        white-space: normal;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>This website is all about Tim Berners-Lee</h1>
+
+    <img class="portrait" src="portrait.jpg" alt="Portrait of Tim Berners-Lee">
+
+    <h3>Personal Information</h3>
+    <p>
+      His parents were computer scientists working on the first commercially built computer, the
+      <a href="https://en.wikipedia.org/wiki/Ferranti_Mark_1" target="_blank" rel="noopener noreferrer">Ferranti Mark I</a>.
+      Thus, he developed an interest into computers early on.
+    </p>
+
+    <h3 class="quick-facts-title">Quick Facts</h3>
+    <ul>
+      <li>Born 1955-06-08</li>
+      <li>Married
+        <ul>
+          <li>Nancy Carlson 1990-2011, 2 children</li>
+          <li>Rosemary Leith 2014- 3 step-children</li>
+        </ul>
+      </li>
+      <li>Knighted in 2004</li>
+    </ul>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Position</th>
+          <th>Organisation</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Professor</td>
+          <td>University of Southampton</td>
+        </tr>
+        <tr>
+          <td>Professor</td>
+          <td>Massachusetts Institute of Technology</td>
+        </tr>
+        <tr>
+          <td>Fellow</td>
+          <td>University of Oxford</td>
+        </tr>
+        <tr>
+          <td>Director</td>
+          <td>World Wide Web Consortium</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3 class="section-heading">Education</h3>
+    <p>
+      He attended Sheen Mount Primary School, and then went on to attend south-west London's Emanuel School from 1969 to
+      1973. He studied at The Queen's College, Oxford, from 1973 to 1976, where he received a first-class Bachelor of Arts degree
+      in physics. While at university, Berners-Lee made a computer out of an old television set, which he bought from a repair shop.
+    </p>
+
+    <h3 class="section-heading">The Internet</h3>
+    <p>
+      In 1984, he returned to <a href="https://en.wikipedia.org/wiki/CERN" target="_blank" rel="noopener noreferrer">CERN</a> as a fellow. In 1989, CERN was the largest Internet node in Europe and Berners-Lee saw an
+      opportunity to join hypertext with the Internet: 'I just had to take the hypertext idea and connect it to the TCP and DNS ideas
+      and—ta-da!—the World Wide Web'. In 1990 he created not only the first web browser but also an editor and the first web
+      server. The first website, an explanation of the WWW concept, was published on 1990-12-20 - available to the internet via the
+      CERN network.
+    </p>
+
+    <p class="source-note">Texts from Wikipedia 😎</p>
+  </main>
+</body>
+</html>
